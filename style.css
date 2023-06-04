@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.navbar span {
+    padding-left: 10px;
+}
+
+.cardContainer {
+    padding: 20px 30px 0 30px;
+    
+}
+
+.cardObject {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    padding-left: 0;
+    border-bottom: 1px solid gray;
+}
+
+.cardObject div:last-child {
+    /* border-bottom: none; */
+}
+
+.cardContainer div:last-child {
+    border-bottom: none; 
+}
+
+.picture {
+    object-fit: cover;
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+}
+
+.location {
+    padding: 10px 0;
+}
+
+.mapsLink {
+    padding-left: 10px;
+    display: inline;
+}
+
+.locIcon {
+    padding-right: 5px;
+    display: inline;
+}
